@@ -1,0 +1,119 @@
+
+h1 {
+    color: rgb(255, 196, 0);
+    font-size: 100px;
+    padding-top: 50px;
+}
+
+h2 {
+    color:rgb(199, 160, 0);
+}
+
+p{
+    color: rgb(255, 255, 255);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    
+  }
+
+  a {
+
+    color: rgb(255, 204, 0);
+
+  }
+
+  li {
+      list-style-type: kannada;
+  }
+
+  .special {
+    color: lightseagreen;
+    font-weight: bold;
+  }
+
+  body {
+    width: 1000px;
+    margin: 0 auto;
+
+  }
+  
+  p {
+    background:; 
+    border: ;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .container {
+    column-count: 2;
+    column-gap: 20px;
+    background-color:;
+    padding-bottom: 100px;
+  }
+  
+  .sidenav{
+    height: 100%;
+    width: 160px; 
+    position: fixed; 
+    z-index: 1;
+    top: 990px;
+    left: 0;
+    background-color:; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px; 
+  }
+  
+.sidenav a{
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ff0000;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
+}
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50% ;
+  }
+
+#floatframe {
+  position: relative;;
+  bottom:10px;
+
+
+}
+
+#floatframe02 {
+  position: absolute;
+  left:0px;
+  top:0px;
+  width:100%;
+  height:200px;
+  z-index:-1
+  }
+
+.column {
+  float: left;
+  width: 100%;
+  padding: 0px;
+  height: 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+ 
